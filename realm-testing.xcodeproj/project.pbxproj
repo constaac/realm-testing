@@ -13,6 +13,7 @@
 		A491879920AC885A00CF9CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491879720AC885A00CF9CC9 /* Main.storyboard */; };
 		A491879B20AC885C00CF9CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A491879A20AC885C00CF9CC9 /* Assets.xcassets */; };
 		A491879E20AC885C00CF9CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491879C20AC885C00CF9CC9 /* LaunchScreen.storyboard */; };
+		A49187A820AC8B6700CF9CC9 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49187A720AC8B6700CF9CC9 /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A491879A20AC885C00CF9CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A491879D20AC885C00CF9CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A491879F20AC885C00CF9CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49187A720AC8B6700CF9CC9 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		C1CFE2148B44E438559E432F /* Pods-realm-testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-testing.release.xcconfig"; path = "Pods/Target Support Files/Pods-realm-testing/Pods-realm-testing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 		A491879220AC885A00CF9CC9 /* realm-testing */ = {
 			isa = PBXGroup;
 			children = (
+				A49187A620AC8B3A00CF9CC9 /* Models */,
 				A49187A520AC8A9100CF9CC9 /* Services */,
 				A491879320AC885A00CF9CC9 /* AppDelegate.swift */,
 				A491879520AC885A00CF9CC9 /* HomeVC.swift */,
@@ -86,6 +89,14 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		A49187A620AC8B3A00CF9CC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A49187A720AC8B6700CF9CC9 /* Session.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		AD1C2C04713F3ED398D764F8 /* Frameworks */ = {
@@ -212,6 +223,7 @@
 			files = (
 				A491879620AC885A00CF9CC9 /* HomeVC.swift in Sources */,
 				A491879420AC885A00CF9CC9 /* AppDelegate.swift in Sources */,
+				A49187A820AC8B6700CF9CC9 /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
