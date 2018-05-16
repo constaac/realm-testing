@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		733749305C04AFCC0896327A /* Pods_realm_testing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2999DAE045A607EFD32CEFE1 /* Pods_realm_testing.framework */; };
 		A491879420AC885A00CF9CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491879320AC885A00CF9CC9 /* AppDelegate.swift */; };
-		A491879620AC885A00CF9CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491879520AC885A00CF9CC9 /* ViewController.swift */; };
+		A491879620AC885A00CF9CC9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491879520AC885A00CF9CC9 /* HomeVC.swift */; };
 		A491879920AC885A00CF9CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491879720AC885A00CF9CC9 /* Main.storyboard */; };
 		A491879B20AC885C00CF9CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A491879A20AC885C00CF9CC9 /* Assets.xcassets */; };
 		A491879E20AC885C00CF9CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491879C20AC885C00CF9CC9 /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		9F472109CEC1C0C9B2CC1250 /* Pods-realm-testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realm-testing/Pods-realm-testing.debug.xcconfig"; sourceTree = "<group>"; };
 		A491879020AC885A00CF9CC9 /* realm-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "realm-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A491879320AC885A00CF9CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A491879520AC885A00CF9CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A491879520AC885A00CF9CC9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A491879820AC885A00CF9CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A491879A20AC885C00CF9CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A491879D20AC885C00CF9CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,14 +70,22 @@
 		A491879220AC885A00CF9CC9 /* realm-testing */ = {
 			isa = PBXGroup;
 			children = (
+				A49187A520AC8A9100CF9CC9 /* Services */,
 				A491879320AC885A00CF9CC9 /* AppDelegate.swift */,
-				A491879520AC885A00CF9CC9 /* ViewController.swift */,
+				A491879520AC885A00CF9CC9 /* HomeVC.swift */,
 				A491879720AC885A00CF9CC9 /* Main.storyboard */,
 				A491879A20AC885C00CF9CC9 /* Assets.xcassets */,
 				A491879C20AC885C00CF9CC9 /* LaunchScreen.storyboard */,
 				A491879F20AC885C00CF9CC9 /* Info.plist */,
 			);
 			path = "realm-testing";
+			sourceTree = "<group>";
+		};
+		A49187A520AC8A9100CF9CC9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		AD1C2C04713F3ED398D764F8 /* Frameworks */ = {
@@ -202,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A491879620AC885A00CF9CC9 /* ViewController.swift in Sources */,
+				A491879620AC885A00CF9CC9 /* HomeVC.swift in Sources */,
 				A491879420AC885A00CF9CC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
